@@ -1,9 +1,9 @@
 
 #* > Conversão de tipos.
 
-age = '19';
-num1 = '10';
-num2 = '20';
+age = '19'; # Criado uma variável chamada age que contém uma string como seu valor.
+num1 = '10'; # Criado uma variável chamada num1 que contém uma string como seu valor.
+num2 = '20'; # Criado uma variável chamada num2 que contém uma string como seu valor.
 
 print(num1 + num2); # Imprimi na tela os valores concatenados pois são do tipo string e não do tipo number.
 

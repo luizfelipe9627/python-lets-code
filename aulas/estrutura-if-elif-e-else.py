@@ -1,11 +1,11 @@
 
-# * > Estruturas condicionais.
+#* > Estruturas condicionais IF, ELSE e ELIF.
 
 """
   Faça uma condição na qual verifique se o usuário é maior ou menor de idade.
 """
 
-# * > If e else.
+#* > If e else.
 
 age = 10; # Variável com o nome age recebendo um number.
 
@@ -20,7 +20,7 @@ else:
   Imagine que você queira imprimir "Aprovado(o)", caso o estudante tenha uma média superior ou igual a 7, e "Reprovado", caso a média seja inferior a 7.
 """
 
-# * > If, elif e else.
+#* > If, elif e else.
 
 media = float(input("Informe a média: ")); # Variável media que converte o valor digitado pelo usuário no input em número quebrado.
 
@@ -34,14 +34,14 @@ elif media >= 5:
 else:
   print("Você foi reprovado."); # Imprime na tela uma string.
  
-note = 9; # Variável com o nome note recebendo um number.
+grade = 9; # Variável com o nome grade recebendo um number.
 presence = 50; # Variável com o nome presence recebendo um number.
 
-# * > If e else com operador AND.
+#* > If e else com operador AND.
 
-# Se note(o valor armazenado) for maior(>) ou igual(=) a 7 E(os dois tem que ser verdadeiro) presence for maior ou igual a 70 irá executar o if.
-if note >= 7 and presence >= 70:
-  print("Aprovado!");
+# Se grade(o valor armazenado) for maior(>) ou igual(=) a 7 E(os dois tem que ser verdadeiro) presence for maior ou igual a 70 irá executar o if.
+if grade >= 7 and presence >= 70:
+  print("Aprovado!"); # Imprime na tela uma string.
 # Senão caso contrario irá executar o else.
 else:
-  print("Reprovado!");
+  print("Reprovado!"); # Imprime na tela uma string.
